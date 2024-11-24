@@ -35,7 +35,7 @@ def test_01_form():
     alert_success_color = "rgba(209, 231, 221, 1)"
     fields = ["first-name", "last-name", "address", "e-mail", "phone", "city", "country", "job-position", "company"]
     for field_name in fields:
-        field = driver.find_element(By.ID, f"input[id='{field_name}']")
+        field = driver.find_element(By.CSS_SELECTOR, f"[id='{field_name}']")
         field_color = field.value_of_css_property("background-color")
         assert field_color == alert_success_color, f"Expected {alert_success_color} for {field_name}, but got {field_color}"
 
