@@ -4,8 +4,8 @@ import requests
 url = "https://yougile.com/api-v2/auth/companies"
 
 creds = {
-  "login": "tsmitova@yandex.ru",
-  "password": "hrCdOOYz"
+  "login": "",
+  "password": ""
 }
 
 headers = {
