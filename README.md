@@ -1,6 +1,7 @@
 # Py_HW
 ## Allure 
 Для запуска тестов и формирования отчета, необходимо указать путь к каталогу результатов с помощью команды: 
-**pytest --alluredir allure-result**
+**pytest --alluredir allure-result**.
+
 Для  просмотра сформированного отчета в браузере, введите команду: 
 **allure serve allure-result**
